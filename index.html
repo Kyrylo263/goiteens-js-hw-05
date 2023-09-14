@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <button class="button" type="button" data-action="open-modal">Відкрити модалку</button>
+    <div class="backdrop js-backdrop">
+        <div class="modal">
+            <h2>Modal window</h2>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Unde in, qui totam provident inventore
+                delectus maiores nam doloremque facere animi. Quam eos quia sequi pariatur optio! Hic maxime corrupti
+                aut,
+                voluptatum est, culpa error dolorum sed aliquid aliquam incidunt sit neque beatae dignissimos nostrum
+                blanditiis quas quo fugit ipsam dolore dolor
+                dicta voluptate aperiam modi? Iure,
+                fugit dolore atque illo minima debitis provident perferendis minus beatae harum voluptatum
+                iusto odio ratione eaque magni
+                assumenda blanditiis veniam voluptas nostrum. Est eaque earum iste eos distinctio. Amet.</p>
+            <button type="button" class="button" data-action="close-modal">Закрити</button>
+        </div>
+    </div>
+
+    <form>
+        <p>Choose a color:</p>
+        <label>
+            <input type="radio" name="color" value="red" checked />
+            Red
+        </label>
+        <label>
+            <input type="radio" name="color" value="white">
+            White
+        </label>
+        <label>
+            <input type="radio" name="color" value="green">
+            Green
+        </label>
+    </form>
+
+    <input type="text" placeholder="Ваше ім'я?" id="name-input" />
+    <h1>Привіт,<span id="output">незнайомець</span>!</h1>
+
+    <input type="text" id="validation-input" data-length="6" placeholder="Введи 6 символов" /><br>
+
+    <input id="font-size-control" type="range" />
+    <span id="text">Hello world!</span>
+
+    <script src="index.js"></script>
+</body>
+
+</html>
